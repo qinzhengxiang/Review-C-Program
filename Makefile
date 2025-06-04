@@ -8,7 +8,7 @@ CFLAGS = -Wall -g
 TARGET = runProgram
 
 # 定义源文件
-SRCS = test17_BuildDataBase.c
+SRCS = test25ArgFunction.c
 
 # 定义对象文件 (由源文件自动生成)
 OBJS = $(SRCS:.c=.o)
