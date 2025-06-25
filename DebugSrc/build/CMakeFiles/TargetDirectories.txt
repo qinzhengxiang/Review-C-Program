@@ -1,0 +1,3 @@
+/home/qin/MyProject/Review-C-Program/DebugSrc/build/CMakeFiles/Debug.dir
+/home/qin/MyProject/Review-C-Program/DebugSrc/build/CMakeFiles/edit_cache.dir
+/home/qin/MyProject/Review-C-Program/DebugSrc/build/CMakeFiles/rebuild_cache.dir
