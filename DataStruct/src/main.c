@@ -1,6 +1,6 @@
-#include "../include/DoubleList.h"
-#include "../include/DynamicArray.h"
-#include "../include/SafeString.h"
+#include "DoubleList.h"
+#include "DynamicArray.h"
+#include "SafeString.h"
 
 #include <stddef.h>
 #include <stdio.h>

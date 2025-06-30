@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.25)
 
 # 设置项目名称和版本
-project(DataStruct  C)
+project(DataStructProject  C)
 
 # 设置 C++ 标准
 #set(CMAKE_CXX_STANDARD 17)
@@ -13,7 +13,7 @@ set(CMAKE_C_STANDARD 11)
 add_compile_options(-Wall -Wextra -Werror)
 
 #添加头文件搜索路径
-include_directories(${PROJECT_SOURCE_DIR}/include)
+#include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # 添加可执行文件
 # add_executable(DataStruct main.c)
@@ -29,6 +29,8 @@ set(SRC_FILES
 # 主程序
 add_executable(DataStructProject src/main.c ${SRC_FILES})
 
+# add include head files
+target_include_directories(DataStructProject PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 # 测试程序
 #add_executable(Test4DataStruct tests/test_foo.c ${SRC_FILES})
 
