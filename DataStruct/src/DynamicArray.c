@@ -62,14 +62,15 @@ void insert(DynamicArray *arr,size_t index,void *val){
 
 
     void *temp = malloc(arr->elem_size*(arr->size - index));
-    void *tarIndex = (char *)arr->data + arr->size * index;
+    void *tarIndex = (char *)arr->data + arr->elem_size * index;
     memcpy(temp, tarIndex, arr->elem_size*(arr->size-index));
 
     memcpy(tarIndex, val, arr->elem_size);
 
-    tarIndex += arr->elem_size;
+    tarIndex  = (char *)tarIndex  + arr->elem_size;
     memcpy(tarIndex, temp, arr->elem_size*(arr->size - index));
 
+    free(temp);
     arr->size++;
 }
 

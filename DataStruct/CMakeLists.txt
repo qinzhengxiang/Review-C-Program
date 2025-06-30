@@ -22,6 +22,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 set(SRC_FILES
     src/DoubleList.c
     src/DynamicArray.c
+    src/SafeString.c
     
 )
 
