@@ -8,7 +8,7 @@ CFLAGS = -Wall -g
 TARGET = runProgram
 
 # 定义源文件
-SRCS = print4Embedned.c
+SRCS = test31DebuggingCode.c
 
 # 定义对象文件 (由源文件自动生成)
 OBJS = $(SRCS:.c=.o)
