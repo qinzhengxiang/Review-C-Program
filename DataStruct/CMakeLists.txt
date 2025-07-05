@@ -23,6 +23,7 @@ set(SRC_FILES
     src/DoubleList.c
     src/DynamicArray.c
     src/SafeString.c
+    src/HashMap.c
     
 )
 
