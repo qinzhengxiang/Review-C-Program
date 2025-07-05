@@ -24,6 +24,7 @@ set(SRC_FILES
     src/DynamicArray.c
     src/SafeString.c
     src/HashMap.c
+    src/StringAlgorithm.c
     
 )
 
@@ -32,6 +33,9 @@ add_executable(DataStructProject src/main.c ${SRC_FILES})
 
 # add include head files
 target_include_directories(DataStructProject PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+# 添加数学库
+target_link_libraries(DataStructProject m)
 # 测试程序
 #add_executable(Test4DataStruct tests/test_foo.c ${SRC_FILES})
 
