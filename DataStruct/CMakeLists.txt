@@ -25,6 +25,7 @@ set(SRC_FILES
     src/SafeString.c
     src/HashMap.c
     src/StringAlgorithm.c
+    src/BinaryTree.c
     
 )
 
