@@ -28,6 +28,8 @@ void RemoveTail(List* list);
 
 ListNode *ListFind(List *list, void *value, int (*compare)(void *, void *));
 ListNode *ListGetNodeAt(List* list,int index);
+ListNode *ListGetHead(List *list);
+ListNode *ListGetTail(List *list);
 
 void ListTraverseForward(List *list, void (*func)(void *));
 void ListTraverseBackward(List *list, void (*func)(void *));

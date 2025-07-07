@@ -1,6 +1,5 @@
 #include "../include/DoubleList.h"
 
-
 #include <stdlib.h>
 
 
@@ -107,6 +106,17 @@ ListNode* ListGetNodeAt(List* list,int index){
     }
     return NULL;
 }
+ListNode *ListGetHead(List *list){
+    if(!list)return NULL;
+    
+    return (list->Head->next);
+}
+ListNode *ListGetTail(List *list){
+    if(!list)return NULL;
+
+    return (list->Tail->prev);
+}
+
 
 void ListTraverseForward(List *list, void (*func)(void *)){
     if(!list || !func)return;
