@@ -29,6 +29,7 @@ set(SRC_FILES
     src/BinaryTree.c
     src/Stack.c
     src/Queue.c
+    src/RingBuffer.c
     
 )
 
