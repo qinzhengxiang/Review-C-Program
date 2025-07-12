@@ -1,14 +1,15 @@
 # Overview
 
 **Review-Program-C** is a pure C programming project that implements fundamental data structures including:
-    - Binary Tree
-    - Doubly Linked List
-    - Dynamic Array
-    - Hash Table
-    - Queue
-    - Stack
-    - Safe String Operations
-    - Ring Buffer (Circular Buffer)
+- Binary Tree
+- Doubly Linked List
+- Dynamic Array
+- Hash Table
+- Queue
+- Stack
+- Safe String Operations
+- Ring Buffer (Circular Buffer)
+- .....
 
 This project serves as an excellent resource for **learning and practicing basic data structures in pure C**, making it ideal for:
 
